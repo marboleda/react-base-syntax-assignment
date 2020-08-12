@@ -5,8 +5,8 @@ import UserOutput from './UserOutput/UserOutput'
 function App() {
   return (
     <div className="App">
-      <UserOutput />
-      <UserOutput />
+      <UserOutput username="username1" />
+      <UserOutput username="username2" />
     </div>
   );
 }
