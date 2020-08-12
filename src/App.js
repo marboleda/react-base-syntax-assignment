@@ -6,6 +6,13 @@ class App extends Component {
   state = {
     username: "myUsername"
   }
+
+  inputHandler = (newUsername) => {
+    this.setState({
+      username: newUsername
+    })
+  }
+
   
   render() {
     return (
