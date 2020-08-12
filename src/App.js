@@ -1,14 +1,19 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import UserOutput from './UserOutput/UserOutput'
 
-function App() {
-  return (
-    <div className="App">
-      <UserOutput username="username1" />
-      <UserOutput username="username2" />
-    </div>
-  );
+class App extends Component {
+  state = {
+    username: "myUsername"
+  }
+  
+  render() {
+    return (
+      <div className="App">
+        <UserOutput username={this.state.username} />
+      </div>
+    );
+  }
 }
 
 export default App;
