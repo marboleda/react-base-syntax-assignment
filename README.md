@@ -1,5 +1,5 @@
 ## React Base Syntax Practice
-This assignment that is part of the course ["React - The Complete Guide"](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) on Udemy.
+This assignment is part of the course ["React - The Complete Guide"](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) on Udemy, for the purposes of practicing the base syntax of React.
 
 The requirements are as follows:
 
